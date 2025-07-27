@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Saumil Singhal! 👋</h1>
 
 <p align="center">
-  <b> CSE AIML Undergrad | MERN Stack Developer | Open Source Contributor | Machine LearningEnthusiast</b>
+  <b> CSE AIML Undergrad | MERN Stack Developer | Open Source Contributor | Machine Learning Enthusiast</b>
 </p>
 
 <p align="center">
