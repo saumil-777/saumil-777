@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/saumil-singhal/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" /></a>
-  <a href="mailto:saumil.23bai11005@vitbhopal.ac.in"><img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail" /></a>
-  <a href="https://leetcode.com/saumilsinghal/"><img src="https://img.shields.io/badge/Leetcode-orange?style=for-the-badge&logo=leetcode" /></a>
+  <a href="https://www.linkedin.com/in/saumil-singhal-02a424227/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="mailto:singhalsaumil2005@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail" /></a>
+  <a href="https://leetcode.com/u/Saumil_Singhal/"><img src="https://img.shields.io/badge/Leetcode-orange?style=for-the-badge&logo=leetcode" /></a>
   <img src="https://img.shields.io/badge/Follow-1-blue?style=for-the-badge" />
 </p>
 
