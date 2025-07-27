@@ -62,7 +62,7 @@
 Feel free to connect or reach out:
 
 - 📬 saumil.23bai11005@vitbhopal.ac.in, singhalsaumil2005@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/saumil-singhal/)
+- 💼 [LinkedIn]([https://www.linkedin.com/in/saumil-singhal/](https://www.linkedin.com/in/saumil-singhal-02a424227/))
 - 🌐 [Portfolio (coming soon)]
 
 ---
