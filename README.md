@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Saumil Singhal! 👋</h1>
 
 <p align="center">
-  <b>AIML Undergrad | Full Stack Developer | Open Source Contributor | Coding Enthusiast</b>
+  <b> CSE AIML Undergrad | MERN Stack Developer | Open Source Contributor | Machine LearningEnthusiast</b>
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 - 🎓 Pursuing B.Tech in **Artificial Intelligence & Machine Learning** at VIT Bhopal
 - 🚀 Passionate about building intelligent systems and impactful web solutions
 - 👨‍💻 Contributor at **GSSoC '24** – actively learning through open-source development
-- 💡 Keen interest in **Machine Learning**, **System Design**, and **Cloud Technologies**
+- 💡 Keen interest in **Data Structures and Algorithms**, **Machine Learning**, **System Design**, and **Cloud Technologies**
 - 🧠 Love solving problems with **JAVA**, and frameworks like **React** etc.
 - 🎯 Always up for new collaborations, hackathons, and community tech events
 - 🧩 Outside of code, you'll find me optimizing puzzles, ideas, and user experiences
@@ -61,7 +61,7 @@
 
 Feel free to connect or reach out:
 
-- 📬 saumil.23bai11005@vitbhopal.ac.in
+- 📬 saumil.23bai11005@vitbhopal.ac.in, singhalsaumil2005@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/saumil-singhal/)
 - 🌐 [Portfolio (coming soon)]
 
