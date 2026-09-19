@@ -1,0 +1,13 @@
+# ── Local (portrait + card + heatmap) ────────────────────────────────────────
+# Install ALL of these once to regenerate every file locally:
+rembg[cpu]
+opencv-python-headless
+Pillow
+numpy
+requests
+beautifulsoup4
+
+# ── GitHub Action (heatmap only) ─────────────────────────────────────────────
+# The CI workflow installs only:
+#   pip install requests beautifulsoup4
+# No rembg/opencv needed in the Action — portrait and card are static art.

@@ -1,0 +1,48 @@
+# .github/workflows/refresh-heatmap.yml
+#
+# Fetches fresh contribution data from the public GitHub page every day at
+# 03:00 UTC and regenerates contrib-heatmap.svg, then commits with [skip ci]
+# so the bot's own push doesn't retrigger the workflow.
+#
+# Permissions: contents: write  (needed to push the updated SVG)
+# Dependencies: only requests + beautifulsoup4 (no rembg, no OpenCV)
+# The portrait and card are static art; only the heatmap needs a daily refresh.
+
+name: Refresh Contribution Heatmap
+
+on:
+  schedule:
+    - cron: '0 3 * * *'    # 03:00 UTC daily
+  workflow_dispatch:         # allow manual trigger from the Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Regenerate heatmap
+        run: python scripts/gen_heatmap.py contrib-heatmap.svg
+
+      - name: Commit and push (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add contrib-heatmap.svg
+          # Only commit if the file actually changed
+          git diff --staged --quiet \
+            || git commit -m "chore: refresh contribution heatmap [skip ci]"
+          git push
